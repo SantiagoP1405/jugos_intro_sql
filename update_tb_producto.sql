@@ -15,3 +15,4 @@ SELECT * FROM tb_productos;
 UPDATE tb_productos SET PRECIO = 28.51 WHERE PRODUCTO = '695594';
 UPDATE tb_productos SET SABOR = 'Lima/Limón' WHERE PRODUCTO = '1041119';
 
+DELETE FROM tb_productos WHERE PRODUCTO = '773912';
